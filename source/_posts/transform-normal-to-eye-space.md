@@ -9,7 +9,7 @@ tags:
 Vertex position coordinates can be transformed from object space to eye space using model-view matrix. However, normals can not be transformed in that way.
 
 The two pictures shows what happened if we transform normal using model-view matrix:
-![transform normal](/assets/transform-normal.gif "transform normal using model view matrix")
+![transform normal](/images/post/transform-normal.gif "transform normal using model view matrix")
 
 In eye space, tangent direction is correct, but normal is not perpendicular to tangent. Why is that happening?
 

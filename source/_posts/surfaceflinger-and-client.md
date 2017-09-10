@@ -156,7 +156,7 @@ swap to DisplayDevice::mSurface, DisplayDevice::mNativeWindow influenced too -> 
 
 To get clear understanding of the process and the role, reference to this picture:
 
-![surfaceflinger-as-consumer-and-producer](/assets/surfaceflinger-as-consumer-and-producer.png "surfaceflinger-as-consumer-and-producer")
+![surfaceflinger as consumer and producer](/images/post/surfaceflinger-as-consumer-and-producer.png)
 
 ## Summary 
 1. Surface dequeueBuffer eventually works on BuffferQueue in SF, Surface is provider, SurfaceFlingerConsumer is consumer

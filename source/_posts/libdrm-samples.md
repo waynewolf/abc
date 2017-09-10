@@ -204,4 +204,4 @@ cleanup, restore work after program exists. tcsetattr is used to restore origina
 
 ## Appendix
 
-[kms-pageflip.c](/assets/kms-pageflip.c)
+[kms-pageflip.c](/code/post/kms-pageflip.c)

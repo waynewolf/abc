@@ -125,7 +125,7 @@ This is how OpenGL ES supports YUV format texture, the transformation work is of
 ## Appendix
 All kinds of buffers across the graphic stack:
 
-![all-kinds-of-buffers](/assets/all-kinds-of-buffers.png "all kinds of buffers")
+![all-kinds-of-buffers](/images/post/all-kinds-of-buffers.png "all kinds of buffers")
 
 ## Reference
 
