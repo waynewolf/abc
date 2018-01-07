@@ -38,6 +38,6 @@ tensorflow 官方教程是从最基础的 API 讲起，教你怎么创建 Variab
 
 对于从 Caffe 切换过来的人来说，TF Slim 是一个不错的切入点，从这一层API开始比较顺理成章，不会写很多冗余代码，同时也保留了一定的灵活性，还有google已经训练好的基础模型作为起点。不过TF Slim 位于 contrib，未来能不能进入 core，并不清晰，况且core 中有 layer API 和它相似。
 
-## 小结
+# 小结
 
-本文对 tensorflow 和几个 API 作了简单的小结，下一篇看看 TF Mobile 和 TF Lite 两个框架。
+本文对 tensorflow 和几个 API 作了简单的小结，下一篇blog看看 TF Mobile 和 TF Lite 两个框架。

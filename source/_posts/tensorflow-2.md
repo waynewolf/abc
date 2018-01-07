@@ -179,6 +179,6 @@ input_type 和 inference_type 应设置成 FLOAT，但如果使用量化的模�
 
 TF Lite的finetune流程的文档很多，散落在各处，主要流程参考[tf lite doc](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/lite)
 
-## 小结
+# 小结
 
-本文主要分析了 TF Mobile 和 TF Lite 两个框架之间的关系，基于这个两个框架的应用的架构，以及模型的转换。下一篇进入实战，看如何制作TFRecord 数据集。
+本文主要分析了 TF Mobile 和 TF Lite 两个框架之间的关系，基于这个两个框架的应用的架构，以及模型的转换。下一篇blog看看至关重要的数据集Dataset API。
