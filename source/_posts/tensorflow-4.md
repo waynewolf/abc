@@ -120,7 +120,7 @@ with tf.Session() as sess:
 
 ```
 
-TFRecord支持任意类型的byte，所以可以存入任意格式的图片，为了避免TFRecord文件膨胀，注意不要存入解压后的bitmp。
+TFRecord支持任意类型的byte，所以可以存入任意格式的图片，为了避免TFRecord文件膨胀，注意不要存入解压后的bitmap。
 
 # 小结
-本文过了一下TFRecord相关类及用法，下一篇blog进入实战，finetune一个人脸检测模型。
+本文过了一下TFRecord相关类及用法，下一篇blog进入实战，在android上跑一个ssd检测模型。
