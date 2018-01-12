@@ -1,7 +1,7 @@
 ---
-title: tensorflow 5
+title: learn tensorflow 5
 date: 2018-01-07 13:19:13
-tags:
+tags: AI tensorflow
 ---
 
 # Detection Mobile App

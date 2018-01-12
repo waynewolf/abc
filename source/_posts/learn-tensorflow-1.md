@@ -1,7 +1,7 @@
 ---
-title: tensorflow 1
+title: learn tensorflow 1
 date: 2018-01-03 21:48:53
-tags:
+tags: AI tensorflow
 ---
 
 # 简介

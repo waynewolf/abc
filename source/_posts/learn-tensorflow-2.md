@@ -1,7 +1,7 @@
 ---
-title: 'tensorflow 2 '
+title: learn tensorflow 2
 date: 2018-01-06 20:56:00
-tags:
+tags: AI tensorflow
 ---
 
 # TF Mobile 和 TF Lite

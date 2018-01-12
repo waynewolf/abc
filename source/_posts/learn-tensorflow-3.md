@@ -1,7 +1,7 @@
 ---
-title: tensorflow 3
+title: learn tensorflow 3
 date: 2018-01-06 21:23:07
-tags:
+tags: AI tensorflow
 ---
 
 # Dataset API

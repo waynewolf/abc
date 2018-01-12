@@ -1,7 +1,7 @@
 ---
-title: tensorflow 4
+title: learn tensorflow 4
 date: 2018-01-06 21:29:04
-tags:
+tags: AI tensorflow
 ---
 
 # TFRecord
