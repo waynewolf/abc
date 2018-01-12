@@ -14,6 +14,7 @@ SurfaceFlinger is the composition and display manager of android, it mainly play
 
 This article is based on KitKat 4.4.2.
 
+<!--more-->
 ## How client draws UI
 ISurfaceComposer is the interface to talk to SurfaceFlinger, there're two ways to get ISurfaceComposer interface in Client:
 

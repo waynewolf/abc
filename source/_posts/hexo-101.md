@@ -1,5 +1,6 @@
 ---
 title: hexo 101
+date: 2017-09-09 22:39:32
 ---
 
 ## Quick Start
@@ -12,14 +13,6 @@ $ hexo new "My New Post"
 
 More info: [Writing](https://hexo.io/docs/writing.html)
 
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
 ### Generate static files
 
 ``` bash
@@ -27,6 +20,14 @@ $ hexo generate
 ```
 
 More info: [Generating](https://hexo.io/docs/generating.html)
+
+### Run test server locally
+
+``` bash
+$ hexo server
+```
+
+More info: [Server](https://hexo.io/docs/server.html)
 
 ### Deploy to remote sites
 
@@ -36,7 +37,7 @@ $ hexo deploy
 
 More info: [Deployment](https://hexo.io/docs/deployment.html)
 
-
+<!--more-->
 ## Reference
 
 - [Hexo](https://hexo.io/)

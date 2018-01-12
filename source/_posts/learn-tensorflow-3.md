@@ -7,6 +7,7 @@ tags: AI tensorflow
 # Dataset API
 数据的重要性毋庸置疑，训练模型的时候很大一部分工作花在处理数据上，有必要专门看看一看数据处理类Dataset的用法。Dataset(tf.data.Dataset)表示一系列具有相同结构的元素，每个元素含一个或多个Tensor。
 
+<!--more-->
 ## 创建Dataset
 创建 Dataset 有两种方法:
   - Dataset构造函数，传入 Source (Dataset.from_tensor_slices())，用多个Tensor对象构造

@@ -8,6 +8,7 @@ tags: AI tensorflow
 
 目前 TF Lite 还没有成熟，代码中散落各类实现和例子，有必要先了解一下两个相近的框架 TF Mobile 和 TF Lite。TF Mobile 早于 TF Lite，是Tensorflow最初在移动设备上的移植，它没有硬件加速，没有量化等优化，因此可以认为它是一个过度框架。而 TF Lite 实现了比 protobuf 更轻量级的 flatbuffer，开销小，但目前不是所有的 op 都支持。总之，能用 TF Lite 的地方就尽量用，不能用再考虑 TF Mobile。
 
+<!--more-->
 ## TF Mobile demo analysis
 
 TF Mobile Camera 例子涵盖最基础的四个应用场景，classification, detection, stylize 和 sppech。

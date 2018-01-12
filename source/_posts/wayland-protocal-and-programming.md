@@ -8,6 +8,7 @@ Written in 2012 before wayland 1.0 released, most of them are outdated as in May
 
 wayland是异步的面向对象的协议，所有请求都是在某个对象上的方法调用。每个对象实现一个接口，描述一系列操作。请求包含对象id，唯一标识服务器上的一个对象，还包括opcode，指出在对象上调用的方法。server向client发"事件"，每个事件都依附于一个对象。事件可以是出错信息，也可以是其他通知，事件包含对象id和opcode，client可以通过这些信息判断事件的类型。事件可以是对请求的响应(就像http的request和response一样，构成一个来回)，也可以是server自发的。
 
+<!--more-->
 # 1 简介
 
 关于wayland的架构，请查看 wayland.freedesktop.org.

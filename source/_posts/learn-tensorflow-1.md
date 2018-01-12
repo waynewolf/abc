@@ -11,7 +11,7 @@ AI 的烈火烧遍全球，作为程序猿一枚，自然不能坐视不理。�
     tensorflow: 136697ecdc64b5171522fb7f89cfe51a02f0f1c1@master, (1.4.1之后的一个commit)
     bazel: 0.8.1
 ```
-
+<!--more-->
 ## 完善的示例
 
 例子散落在源码中，要编译这些例子需要了解一些 bazel 的知识。本人对 bazel 比较抵触，但为了弄懂 tensorflow 代码的组织，也还是看了一些 bazel 资料，需要弄懂 WORKSPACE, BUILD, RULE, *.bzl 等文件及概念。

@@ -8,6 +8,7 @@ tags:
 ## Problem
 Android ashmem can map file descriptor to share memory across process boundary. Android binder help transfer fds between different processes, this is very basic and important infrastructure for graphic buffer sharing in android. However, fd cannot be sent across processes by socket without extra code, how does binder do this?
 
+<!--more-->
 ## Principle
 fd cannot be shared between processes, but kernel `struct file *` pointer can.
 

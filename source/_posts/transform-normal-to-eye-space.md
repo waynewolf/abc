@@ -13,6 +13,7 @@ The two pictures shows what happened if we transform normal using model-view mat
 
 In eye space, tangent direction is correct, but normal is not perpendicular to tangent. Why is that happening?
 
+<!--more-->
 ## Why
 The math equation can explain it easily. Assume T is tangent, MV is model-view matrix. P1, P2 are two vertices used to calculate tangent.
 

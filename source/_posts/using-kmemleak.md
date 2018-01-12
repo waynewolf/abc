@@ -24,6 +24,7 @@ Objects are no longer tracked once freed.
 
 Remember it's not accurate, there're false negative/positive cases.
 
+<!--more-->
 ## Usage
 
 * Enable kernel config:

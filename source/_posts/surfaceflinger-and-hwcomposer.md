@@ -10,6 +10,7 @@ tags:
 ## Introduction
 In the beginning, people believes that GPU composition is fast and power effiecent compared with CPU composition. Then, people find that in most usage scenarios, GPU can be kept sleep with the introduction of more display planes. This is where HWComposer comes into play. It is linked into SurfaceFlinger as a library, and works as a judge to decide when to offload work from GPU to display hardware.
 
+<!--more-->
 ## General flow
 
 <pre>

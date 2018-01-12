@@ -8,6 +8,7 @@ tags: AI tensorflow
 
 TFRecord在tensorflow中的作用类似于Caffe中的lmdb数据库，形不似而神似。TFRecord文件含有一个或多个Example(tf.train.Example proctol buffer)，可以和数据库的一行类比，而每个Example包含一个或多个Feature(tf.train.Feature)，相当与数据库的字段。
 
+<!--more-->
 一般情况下，我们有以下几种方法装载数据：
 - 硬盘。运行session的时候指定feed_dict，从磁盘装载。这种方法要把数据load到内存，不是和图像数据。
 - CSV文件。不适合训练图像。

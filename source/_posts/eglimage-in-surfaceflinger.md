@@ -8,6 +8,7 @@ tags:
 
 In android, the application UI is used as an OpenGL ES texture, and composed by SurfaceFlinger to form final image on display. To understand how the application UI is sent to OpenGL, we have to start from some egl/oes extensions.
 
+<!--more-->
 ## EGL_KHR_image_base & EGL_KHR_image
 
 The spec says:

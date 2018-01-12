@@ -12,6 +12,7 @@ $ wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_c
 ```
 unzip and copy frozen_inference_graph.pb to android app assets folder, rename to ssd_mobilenet_v1_coco_2017_11_17.pb
 
+<!--more-->
 ## 网络运行过程
 
 使用 TF Mobile API，生成TensorFlowInferenceInterface类，为了访问assets中的model，需要给这个类传递AssetManager的实例。有了 TensorFlowInferenceInterface实例后，获得graph

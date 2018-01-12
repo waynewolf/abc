@@ -20,6 +20,7 @@ DRM major concepts:
 * Encoder: convert digital signal from CRTC to appropriate analog level, eDP, MIPI, ...
 * Connector: Physical connector like HDMI，DVI-D，VGA，S-Video
 
+<!--more-->
 ## librdrm
 
 DRM exports API through ioctl, libdrm is a user mode library to wrap these ioctls, please reference xf86drm.h in libdrm for detailed explanation. The general steps to use the libdrm are:
